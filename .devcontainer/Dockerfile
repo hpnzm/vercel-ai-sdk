@@ -1,1 +1,2 @@
-FROM node:20-bullseye
+FROM node:21-alpine
+RUN apk add zsh
